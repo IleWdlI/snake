@@ -3,23 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Snake</title>
 </head>
 <body>
-    <canvas id="canvas" width="500" height="500" ></canvas>
-
-
-    <script>
-        const canvas = document.getElementById(canvas)
-        const ctx = canvas.getContext("2d")
-
-        ctx.strokeStyle = 'black'
-        ctx.fillRect(0,0,200,200)
-
-
-
-
-    </script>
-
+    
+    <canvas id='canvas', style="background: rgb(90, 82, 82);">your browser doesn't support canvas</canvas>
+    <div>Your score: <span id="score"></span></div>
+    <script src="fruit.js"></script>
+    <script src="snake.js"></script>
+    <script src="window.js"></script>
 </body>
 </html>
